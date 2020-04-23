@@ -1,16 +1,19 @@
-# springBoot-liquibase-MySQL
-Example to set up Liquibase in spring boot projects for database schema migrations and for schema changes.
-Maintain database DDL and DML scripts within spring boot project which are executed during project bootup.
-It helps to overcome burden of maintaining and executing database scripts separately.
+# springBoot-swagger
+Example to set up Swagger into spring boot project. 
 
-# Liquibase
-Liquibase is an open-source database-independent library for tracking, managing and applying database schema changes.(https://www.liquibase.org/)
+# Swagger
+Swagger is an open-source software framework that helps developers design, build, document, and consume RESTful web services.(https://swagger.io/)
 
-# Getting started with Liquibase
-https://www.liquibase.org/get_started/index.html
+# Getting started with Swagger
+https://swagger.io/solutions/api-design/
 
 # Build command
 mvn clean install
 
 # Run command
 mvn spring-boot:run
+
+# Check Swagger document
+http://localhost:8080/swagger-ui.html
+
+
